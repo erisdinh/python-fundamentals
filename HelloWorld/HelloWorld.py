@@ -13,17 +13,25 @@ print("Hello World");
 # -> sentence[:-3] -> Output: 'I am an international student at Sheridan Coll'
 
 # name = "Quynh"
-# name += " is 22 year olds"
-# -> Output: 'Quynh is 22 year olds'
+# name += " is 22 years old"
+# -> Output: 'Quynh is 22 years old'
 #
-# sentence = "%s is 22 year olds"
+# sentence = "%s is 22 years old"
 # sentence%name
-# -> Output: 'Quynh is 22 year olds'
+# -> Output: 'Quynh is 22 years old'
 
-# sentence = "%s is 22 year olds"
+# sentence = "%s is 22 years old"
 # sentence%("Hai")
-# -> Output: 'Hai is 22 year olds'
+# -> Output: 'Hai is 22 years old'
 
 # sent = "%s %s is the President of the US"
 # sent%("Barrack", "Obama")
 # 'Barrack Obama is the President of the US'
+
+# sent = "%s is %d years old"
+# sent%("Quynh", 22)
+# -> Output: 'Quynh is 22 years old'
+
+# sentence = sent%("Quynh", 22)
+# sentence
+# -> Output: 'Quynh is 22 years old'
