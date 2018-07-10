@@ -36,8 +36,10 @@ print("Hello World");
 # sentence
 # -> Output: 'Quynh is 22 years old'
 
+# LISTS
+# USING SQUARE BRACKET
 # Define a list
-# shoplist = ["apple", "orange", "banana", "chese"]
+# shoplist = ["apple", "orange", "banana", "chese"] -> square bracket
 # shoplist[0]
 # -> Output: 'apple'
 
@@ -83,6 +85,7 @@ print("Hello World");
 # -> Otherwise, use min(list) for the minimum number
 
 # DICTIONARIES
+# USING CURLY BRACKET
 # Every dictionaries has a key and a
 # value
 
@@ -121,5 +124,47 @@ print("Hello World");
 # len(students)
 # -> Output: 2
 
-# ** Cannot have the same key with different value
-# ** -> every key is unique
+# ** CANNOT HAVE THE SAME KEY WITH DIFFERENT VALUES
+# ** -> EVERY KEY IS UNIQUE
+
+# TUPLES
+# USING ROUND BRACKET
+
+# Define a tuples
+# tupleName = (value, value, value)
+# Ex:
+# tuples = ("oranges", "apples", "bananas")
+# tuples
+# -> Output: ('oranges', 'apples', 'bananas')
+# tuples[0]
+# 'oranges'
+
+# ** CANNOT UPDATE OR CHANGE A TUPLE BY ASSIGNMENT
+# ** Ex: tuples[0]
+#        -> Output: 'oranges'
+#        -> CANNOT: tuples[0] = 3
+
+# Add tuples to tuples (Concatnate tuples1 and tuples2)
+# tuples2 = (11, 12, 14)
+# tuples3 = tuples + tuples2
+# tuples3
+# ('oranges', 'apples', 'bananas', 11, 12, 14)
+
+# Remove a tuple
+# del tupleName
+# Ex:
+# del tuples
+# ** CANNOT REMOVE A SPECIFIC ITEMS (ELEMENT) FROM A TUPLE
+
+# Get a length of tuple
+# len(tupleName)
+# Ex:
+# len(tuples3)
+# -> Output: 6
+
+# Repeat a tuple n times
+# tuplesName * n
+# Ex:
+# tup = ("Hi", "Hello")
+# tup * 3
+# -> Output: ('Hi', 'Hello', 'Hi', 'Hello', 'Hi', 'Hello')
