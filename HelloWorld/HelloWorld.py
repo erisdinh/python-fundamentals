@@ -1,5 +1,18 @@
 print("Hello World");
 
+# Assign value to variables
+# x = 5
+# s = "welcome"
+# Multi assignment
+# x,y = 5, 3 -> x = 5, y = 2
+# a = b = c = 1
+
+# Can use method type() to know the type of the variable
+# Ex:
+# type(x); type(s)
+# -> Use ; to separate the code in one line
+# -> Use ; to end the line
+
 # every character in python has an index
 # ex: i am an international -> index: i -> 0, a -> 2, m -> 3
 # a string -> automatically be an array
